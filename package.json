@@ -10,15 +10,21 @@
     "license": "ISC",
     "description": "",
     "devDependencies": {
+<<<<<<< HEAD
         "@types/module-alias": "^2.0.1",
         "@types/node": "^18.0.3",
+=======
+>>>>>>> e581c3e90a6cf72eb49f4fda88441f7c3fb3411d
         "typescript": "^4.7.4"
     },
     "engines": {
         "node": "16.x"
     },
     "dependencies": {
+<<<<<<< HEAD
         "module-alias": "^2.2.2",
+=======
+>>>>>>> e581c3e90a6cf72eb49f4fda88441f7c3fb3411d
         "rimraf": "^3.0.2"
     }
 }
