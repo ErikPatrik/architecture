@@ -18,3 +18,10 @@
     },
     "include": ["src"]
 }
+
+// strict recomendado pela equipe do Typescript
+// strict: atalho para habilitar varias outras propriedades ao mesmo tempo, como:
+// - strict null checks: nulo ou undefined não faz parte de nenhum por padrão, isto é, o tipo do parâametro deve ser especificado
+// - strict function types: a interface não ta implementada de acordo
+// - strictPropertyInicalization: obriga inicializar todas as variáveis da classe em um construtor por exemplo, ou como opcional
+// - noImplicityAny: nenhuma variável nossa pode ser do tipo any, isto é, se voce esquecer de tipar algo, o typescript vai te avisar
