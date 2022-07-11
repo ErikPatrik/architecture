@@ -2,5 +2,10 @@
     "extends": "standard-with-typescript",
     "parserOptions": {
         "project": "./tsconfig.json" // vai ler do include do tsconfig.json, quais arquivos o eslint precisa monitorar
-    }
+    },
+    "rules": {
+        "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/no-namespace": "off"
+    },
+    "indent": "off",
 }
